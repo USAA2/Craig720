@@ -1,0 +1,577 @@
+Received: from BYAPR08MB3973.namprd08.prod.outlook.com (2603:10b6:a02:89::28)
+ by DM6PR08MB4042.namprd08.prod.outlook.com (2603:10b6:5:90::30) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5081.17; Thu, 24 Mar
+ 2022 11:04:58 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=lbOr/cobymXh8gd4GWll0VjC2QmX16RkI+ZE80gZRR9w5Zd9b5I1uLKE+4jHzvy8KrVnZPfOGcMNmgo2FTGtkdJFXebhREcYV8pz010e5ALYwiKo2FJ0FQz9p1QyU4DYVH2w5yqmQC0vLa3IuO4F2Zccj6E1tmcNaodeH20cPRmIgF8Vr7YfQJZJTik7ojnEZE6PSUqIlpsm7OVS9OOneRTU1fXC5SkqVamwZpRMFfGrwGvwZlpMX3qa/dPXCs1E2BXEM7Mb+hTToAQIw6mYSphe9zECzySc8igQbjKA02NIqueBZzktXkQvzp+jq2S2vm7KY3nhSGrlEZSt70H/MQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=HsUQE5tWMEg69N4Tv3gWe6Hf8IImKbd/zo3BMuNbzVk=;
+ b=aVQw/GW9OOTq+dJ8nv6bw8hVBbnwgryDMQZ7Neg0xNl8E7fVkWZcXx55KhjhtY4+NIFCkXLQ7lGVWEJAr20SUMYuoFb0G387XSGOa7liVHWCdv92/X0Vw4wbg5lMSalrBJOrTLT02UeZKWMMuzQQ4jdET3kVZrTGaXHrJYTqTiNGPAnMyGxOR1WQzNoZPKyFqHjit9ZxMk0Xsez7wMKSjIbsNKJRayjw8ljahK581yWVht8F9mSgJrNFZ3tbOzTEQYghWs4Bor6GLpWGPodjcXKMmczudU/eCYvaO6hfCl5l2CVatm5exTYdrv8A79m8LbBGaNiM/AgWbnk6z7BZeA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=HsUQE5tWMEg69N4Tv3gWe6Hf8IImKbd/zo3BMuNbzVk=;
+ b=Z2lXBQVREAWpQ8QajicDRvaF0AweXEOqvQz0NAIotXNBJJ3wkv+w5hbkeUvbNTjeRo7bktef0+G23/LI5wkCa+n/gEp2/V/2uIiqGU1NkaXEswwv2KtfXOHPhRHSsXoRQOTsI57qXpgvOvGZkuBVdJEGxzKA5hOaUc+9GJLAVZfAkex0JYSQ9PTVg0kPmP70Dgo0ekGT7zdmrnHz5qx0esNt1W94HWnhuOI/fhYxd/myepjloLas6aCIcXmPo1y1NcBAy0gh80yf4tIFxroMRt4BIKBX5lCvAkwyQ4lY0XwNHqvQcFTIQkV5klBU9sJDqpxCrSkk6WtojwEfBrY1UA==
+Received: from BYAPR08MB3847.namprd08.prod.outlook.com (2603:10b6:a02:87::22)
+ by BYAPR08MB3973.namprd08.prod.outlook.com (2603:10b6:a02:89::28) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5102.16; Wed, 23 Mar
+ 2022 22:19:45 +0000
+Received: from BYAPR08MB3847.namprd08.prod.outlook.com
+ ([fe80::7d71:7f7a:60d6:8ba4]) by BYAPR08MB3847.namprd08.prod.outlook.com
+ ([fe80::7d71:7f7a:60d6:8ba4%7]) with mapi id 15.20.5081.022; Wed, 23 Mar 2022
+ 22:19:45 +0000
+From: Craig Manley <kandygreems312@hotmail.com>
+To: "newsletters@em.walmart.com" <newsletters@em.walmart.com>
+Subject: Re: Tax Refund for Previously Refunded Walmart Marketplace Item(s)
+Thread-Topic: Tax Refund for Previously Refunded Walmart Marketplace Item(s)
+Thread-Index: AQHYOU7qszVComx1+EO2oWBV4XxeVqzNlXny
+Date: Wed, 23 Mar 2022 22:19:45 +0000
+Message-ID: <BYAPR08MB3847E254FBE1BE62F07E88D68D189@BYAPR08MB3847.namprd08.prod.outlook.com>
+References: <13iLTC64SvuTRsSd7VppGg@geopod-ismtpd-5-3>
+In-Reply-To: <13iLTC64SvuTRsSd7VppGg@geopod-ismtpd-5-3>
+Accept-Language: en-US
+Content-Language: en-US
+X-Hashtags: #Receipts,#NewslettersPlus
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-tmn: [3eOa+PT4JxLTvli3a4AkwZH5Gnf8jUSB7YeQm1w+5NDmXXj9cRUzmQ8xC47egL8q]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 4dc49300-47c2-46c9-bbd1-08da0d1b3c69
+x-ms-traffictypediagnostic: BYAPR08MB3973:EE_|DM6PR08MB4042:EE_
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: GTaaBoLDTvj1ui18JtErl8gV5pfQ/PiqW6efsZVpvwZUBW3MjEX+Eu0gLVZC7SvBNpnSKjc4BH3mM4A+FEkMprtX/fkVvEWTccr+0lfQqfF/hmle0EA3NzfSDgMlJdk/teJ1xArzq/Un00CtmDBXKsXcwi+rItXvhqDHJnX0kA+LJBUPoar6CbbCVlrIfJ0Jhs0SaINGdAX7mz7u/6RbZfQoliE0Ne/rKFWugQvBAFOezhEISioMBQmr28QOuOTvfnMGAil3Zqm8chMmFNODBacyCKskGoXk3lM4tNBnUm+wPvhF9CK0hIJ0gqA/xUs3gGh0auww7CYLRrrc3/g2pWcjJY8C6ywUgd9Hcl3bnaHJ0cjuPYnx++Q/0aCcWlBU6dMCQk+RzmzBm4OnbZQ36qqRQ9HHVUqerOi3v3XiZLp+JXvDKfe9RK9pYSpFKA22iWSrtBEr1Qj6VZE17iVVlmClqaWr4fOlNMCBeuW/2diYULVL0neDGb/Qglx62nmUrdMAXeh6oXjhc8FzpFu9ngbtFx/DwjOqeA66DuGVY+cXXpltI0mcteIWeCzQjIixOkm6GUseFwlkEUf5BhsCgABy4ByRfY0Zgy+i/U/HvRR8DEIZqbmb456Bputc6BHSsikK0bfoMSIp8J2OJFxSGM1AIg11c/SM4fqndGQ5ZZQ=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?windows-1256?Q?DcKHbxOmiOYW1sKVX/6KRG5h6dZjlw9HYM8yfUzjNLX9LW8SM0VVCKdh?=
+ =?windows-1256?Q?Ps0dKKVLB80CK5AaBTWEXD7qfItk6umtWSadoZu9z6SuF9g5/KGmCi2L?=
+ =?windows-1256?Q?2QkorvWVafDF21a2nJGA1kP/Emoz/W6zh2OdMRGoE7FYvWW05GnGyrXZ?=
+ =?windows-1256?Q?cNZTmuMT9lF7druT+NV2Ig9RJiyfDs96xfZKPNcQUHtoyXvsbR9PcMyd?=
+ =?windows-1256?Q?N3AFLhF3rr86RRl8eStlETi616ua4DUrw8OnDXotMagzYhVK82p6cCH0?=
+ =?windows-1256?Q?jvpi3ERR3E4c7iSFWE1/8pJoOTvJbodAyLvYq/38o7nTsY3dCDZyQz9p?=
+ =?windows-1256?Q?FuMl9YEczFkmJgziL9OFP3iU3HrI4BhNk2mUZ8TNVamkILywPUhc5HuQ?=
+ =?windows-1256?Q?NM2YKQ8Vhj4zYcKo5VGY4vs3I9ynIcsS64vpBBEZsm5w5ZTg/eXcgDQR?=
+ =?windows-1256?Q?901OfZ00tcI6GmvZ+v88OB2A8YLaRYAZDHggFa6oLwq+92zfeFjsrd2F?=
+ =?windows-1256?Q?RI2Ejwz7drMrNLiVJBR8Ys4KLVeYemldmdImeUFdhxsjduIHrbHewiqs?=
+ =?windows-1256?Q?WZkFPAlToBV1M5p/uJrAWhOyEEHCsPCPgMyA8/z6ZM7CKaxYw4V5MNl6?=
+ =?windows-1256?Q?rgrDq+5RAgjfuSZvaRGuC+kdJ48SEEP0GduiY0iisNJ9upxT0RJbNyTZ?=
+ =?windows-1256?Q?dCowsyyA5GuASNuy8Xm7mpAwRrC0hkcqC2MfmZGbECtXIpSwMLIN1Zvn?=
+ =?windows-1256?Q?iUcQBUv1RsD3Q/uGDDVrRAFzmup9sVZ5lKShIbswUfK2j07A3dsWnGlb?=
+ =?windows-1256?Q?1zvklcjU/z4wP1tkT0WZ7gnTaADteE5FCc3vra88vNvh/su2YbcUEBrE?=
+ =?windows-1256?Q?3UBnFtYUIctEaB6Y/XJZLSceKhiF2qu+j1WBUflFML7WmQ82t+TUR6P2?=
+ =?windows-1256?Q?i7bjBO9Bas029NGaReErw4Dt9vi3f4uenNkoq8G3PRXCAavZzUcEPT6I?=
+ =?windows-1256?Q?dalGFxnv8r5ZCNmbjMJyPR0KFvKunln3WjlYUwy1yBEgVREz4w19s8q6?=
+ =?windows-1256?Q?gsPqyNQnWAB3hDyDA92KO5B/GCwD3/92yJGJxM0EuzBB+OuqjMmvF27n?=
+ =?windows-1256?Q?bSPztLa+hltgfhi6WHRcHV72gwAlCcnW2IJMFH1gJR/u0sjTURFkPdTj?=
+ =?windows-1256?Q?3KKFMLJuBwJIwxcWL/atsoMylHoovW2kVAKkJABeIwyCW7uf+av3N4Du?=
+ =?windows-1256?Q?r1LQzEekJv77B3xpoEygZ8Cc074zUaBYm86mqk3MtXYXGvv02rn+JgX1?=
+ =?windows-1256?Q?37Xcgg=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR08MB3847E254FBE1BE62F07E88D68D189BYAPR08MB3847namp_"
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BYAPR08MB3847.namprd08.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4dc49300-47c2-46c9-bbd1-08da0d1b3c69
+X-MS-Exchange-CrossTenant-originalarrivaltime: 23 Mar 2022 22:19:45.4718
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR08MB3973
+Return-Path: kandygreems312@hotmail.com
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-c65ed.templateTenant
+MIME-Version: 1.0
+
+--_000_BYAPR08MB3847E254FBE1BE62F07E88D68D189BYAPR08MB3847namp_
+Content-Type: text/plain; charset="windows-1256"
+Content-Transfer-Encoding: quoted-printable
+
+
+Ok can I ask when
+
+________________________________
+From: Walmart <newsletters@em.walmart.com>
+Sent: Wednesday, March 16, 2022 9:00 AM
+To: kandygreems312@hotmail.com <kandygreems312@hotmail.com>
+Subject: Tax Refund for Previously Refunded Walmart Marketplace Item(s)
+
+ Important information about your recent purchase. =9D =9D =9D =9D =9D =9D =
+=9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D=
+ =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =
+=9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D=
+ =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =
+=9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D=
+ =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =
+=9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D=
+ =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =
+=9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D=
+ =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =
+=9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D=
+ =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =
+=9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D =9D=
+ =9D =9D =9D =9D =9D      My account<https://links.em.walmart.com/uni/ss/c/=
+FuJLmaCsAvWzGMFHoKPKFAywltfEdIXkKOv-kLRroApoHqpVBLO2En-GrT-TyxqKym2NknuFUtl=
+vXPlMOVf-3C1-Qz_6qYUSmAvsfX7oSwiDt9Nrc6QuBQb19j3hEaudxKtyyIXGj2_WyXmH0PhWhf=
+iD1w_FxfefY0whhhE3rdxM7UEoB6aah1Z892VnJMcv/3ke/yxxbMYN_T5SyX95boLaj7g/h8/0n=
+1W3arVKIcyKebBdRUdAXYktrqJHzUhxCmb2uBjbjM>
+[Walmart - Save Money. Live Better.]<https://links.em.walmart.com/uni/ss/c/=
+FuJLmaCsAvWzGMFHoKPKFJOUJtPQw41UpqCB8XitJp8_J71_6d_4jL70FLYoELpnTVnl9hE1wbE=
+RnxLPBPRBdw0iu1e5Fl5cQzcJWFrwytuXMaJcieOqCmrDQ5u8Zbahjl1p-FYlfygLRLgogDRPCp=
+ntPoif8Q1OIbxGV7UWN-Y/3ke/yxxbMYN_T5SyX95boLaj7g/h9/Qu9uHQG8fNd2BYaKd0qjlPq=
+jzGBHbCPaYcf4PL-uP5M>
+
+
+Hello Craig,
+
+We recently discovered one or more orders with previously refunded items in=
+ which the associated sales tax refund didn=92t process. The missing refund=
+ will be processed by March 31st, and could take up to 10 business days to =
+appear on your original payment method.
+
+Details of the impacted orders are below.
+
+Affected Order(s):      Refund Amount   Credit Card Type        Last 4 digi=
+ts of Card
+5811920269076   $ 1.16  Visa    2926
+
+If you have questions about this refund or any other concerns, please use t=
+he Contact Us button on our Help Center homepage<https://links.em.walmart.c=
+om/ss/c/FuJLmaCsAvWzGMFHoKPKFOshNilPai8EuOF5hpaa6Xmrm01iKX_R5AEbaokWRyJ3aUJ=
+DuhItw_yKa2BlLYQZaE4GGuiRKGRagYPWbY_-idVKHaZoMOCrsFc0Es9pRUnW1Qw8fRtBIo9brB=
+n0EEeCTqgeY0F4gWupLNEFdbj16qk/3ke/yxxbMYN_T5SyX95boLaj7g/h10/kRlgKN5BolcihN=
+0dGl1WklxY6UlpeFQdACybC2MU6Qo>.
+
+Please include your email address and the order number from this email for =
+faster service.
+
+Sincerely,
+Walmart Customer Care Team
+https://www.walmart.com/<https://links.em.walmart.com/ss/c/FuJLmaCsAvWzGMFH=
+oKPKFJOUJtPQw41UpqCB8XitJp9q8VbNLnpgLt1j_8eTkcUF0tY_O5kHR93RISwWrEP_KOC0Z2i=
+Ksd5AtHqDYmTJEJkYKCQ5-pgw7Gy2AryzCPHnd9oyvT12EOJLnfusDkaKGZcAcwSrJjGMiFvhhw=
+1p_LU/3ke/yxxbMYN_T5SyX95boLaj7g/h11/W76b6UOnlBsxdwc7CnFUUfiA3OnaaYN__SQpW0=
+xMpl8>
+
+
+Do not reply to this email. The inbox is not monitored. If you require assi=
+stance, please click here for help<https://links.em.walmart.com/ss/c/C7dNH7=
+iPpkhkhDtdjO6UvoklnAjGoSDYr7lv8S1rJTkDWfChQxBZ-VILe2lC4p2MoAHjL_YcAcmrAt_5M=
+3OoFpNUPhUDWxGeEDLO86BHAStYndpDCm8l1fnuDbKXfZ0innj5mKO3za1_0gi765gQjKM98efO=
+OwZ14aP4RiuG8CE/3ke/yxxbMYN_T5SyX95boLaj7g/h12/3VgJ0UOaUL4W-aeP4aU3WQrvb9VO=
+ivuuGsxBI0DQ92U>.
+
+Security & Privacy
+Walmart protects your security and privacy. We will never ask for personal =
+information (such as passwords or credit card numbers) in an email newslett=
+er. If you receive such a request, please do not respond to the email. Lear=
+n more<https://links.em.walmart.com/ss/c/s2Hp91T69805Qsdm4wiR3og4LUCyK_kQaQ=
+xep1F7tlJAqCqTsebJneEzyQ7AYqowi80eLknn1O9FR-3BuHA4tlRThn1rc2HCl6QHWPt6ja_Dk=
+CTQt5lOlqYejHIN4B2c57WLWg3O4XzVhxm95MJFCwncdZMoFmKd3Ssz7wyz-fZGYauCEktsGe-w=
+L9LQrd92yLLwkKTUbdP6W3eQS6J5ZQ/3ke/yxxbMYN_T5SyX95boLaj7g/h13/4pzQar0BCQGBf=
+e9w67wBnXniv7HfbGTt07InxgUvc-Y>. See our Privacy Policy<https://links.em.wa=
+lmart.com/ss/c/s2Hp91T69805Qsdm4wiR3og4LUCyK_kQaQxep1F7tlJAqCqTsebJneEzyQ7A=
+YqowSvgiwOuzQi7BMwfeyK3-4vP2OcJfNgmyT_nIW-Hn9lFwN6RRNNa-FkcLPNM3haFh9yrg3m-=
+12i_s_KR3BSGLMWqb_P0axOjeA3WaaghbtAzmycOe9wYO77ZayqEB0Qqpf6J3JhgwBodYhd4JVK=
+6Hc9VM-TUTN97uF9Sf28wFW2g/3ke/yxxbMYN_T5SyX95boLaj7g/h14/kZwbvTSGAp022E3-6g=
+dDPCvrB2FvleZgoczMMqr5x6Q>.
+
+Walmart.com, 850 Cherry Avenue, San Bruno CA 94066
+
+=A9 2022 Walmart.
+
+
+
+--_000_BYAPR08MB3847E254FBE1BE62F07E88D68D189BYAPR08MB3847namp_
+Content-Type: text/html; charset="windows-1256"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1=
+256">
+</head>
+<body>
+<div style=3D"background-color: rgb(255, 255, 255); padding: 0px;border: 0p=
+x;"><br style=3D"border: 0px;">
+</div>
+Ok can I ask when<br style=3D"border: 0px;">
+<div style=3D"background-color: rgb(255, 255, 255); padding: 0px;border: 0p=
+x;"></div>
+<br style=3D"border: 0px;">
+<hr style=3D"border: 0px;display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr" style=3D"background-color: rgb(255, 2=
+55, 255); padding: 0px;border: 0px;">
+<font face=3D"Calibri, sans-serif" style=3D"border: 0px;font-size:11pt" col=
+or=3D"#000000"><b style=3D"border: 0px;">From:</b> Walmart &lt;newsletters@=
+em.walmart.com&gt;<br style=3D"border: 0px;">
+<b style=3D"border: 0px;">Sent:</b> Wednesday, March 16, 2022 9:00 AM<br st=
+yle=3D"border: 0px;">
+<b style=3D"border: 0px;">To:</b> kandygreems312@hotmail.com &lt;kandygreem=
+s312@hotmail.com&gt;<br style=3D"border: 0px;">
+<b style=3D"border: 0px;">Subject:</b> Tax Refund for Previously Refunded W=
+almart Marketplace Item(s)</font>
+<div style=3D"background-color: rgb(255, 255, 255); padding: 0px;border: 0p=
+x;">&nbsp;</div>
+</div>
+<div align=3D"center" class=3D"x_backgroundImage" background=3D"#x_FFFFFF" =
+style=3D"background-color: rgb(255, 255, 255); padding: 0px;border: 0px;wid=
+th: 700px !important;background-repeat:repeat repeat; background-position:c=
+enter center; margin:0; padding:0">
+<table class=3D"x_backgroundImage" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center" bgcolor=3D"#f2f2f2" style=3D"bord=
+er: 0px;width: 700px !important;background-repeat:repeat repeat; background=
+-position:center center; margin:0; padding:0">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"center" style=3D"border: 0px;">
+<table class=3D"x_wrapper" width=3D"100%" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" align=3D"center" style=3D"border: 0px;width: 100% !importan=
+t;margin:0 auto; max-width:700px; background-color:#fff">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"center" style=3D"border: 0px;">
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" alig=
+n=3D"center" style=3D"border: 0px;">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"center" style=3D"border: 0px;">
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" alig=
+n=3D"center" style=3D"border: 0px;">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td height=3D"30" align=3D"left" valign=3D"middle" style=3D"border: 0px;">
+<table width=3D"98%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center" style=3D"border: 0px;">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"left" valign=3D"middle" style=3D"border: 0px;font-size:10px; t=
+ext-decoration:none; color:#888888; line-height:11px">
+<span style=3D"border: 0px;">&nbsp;</span><span style=3D"border: 0px;">Impo=
+rtant information about your recent purchase.</span><span style=3D"border: =
+0px;display:none; max-height:0px; overflow:hidden">&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=
+=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D=
+&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nb=
+sp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D&nbsp;=9D</span=
+></td>
+<td align=3D"right" valign=3D"middle" style=3D"border: 0px;"><a href=3D"htt=
+ps://links.em.walmart.com/uni/ss/c/FuJLmaCsAvWzGMFHoKPKFAywltfEdIXkKOv-kLRr=
+oApoHqpVBLO2En-GrT-TyxqKym2NknuFUtlvXPlMOVf-3C1-Qz_6qYUSmAvsfX7oSwiDt9Nrc6Q=
+uBQb19j3hEaudxKtyyIXGj2_WyXmH0PhWhfiD1w_FxfefY0whhhE3rdxM7UEoB6aah1Z892VnJM=
+cv/3ke/yxxbMYN_T5SyX95boLaj7g/h8/0n1W3arVKIcyKebBdRUdAXYktrqJHzUhxCmb2uBjbj=
+M" title=3D"My account" target=3D"_blank" style=3D"border: 0px;text-decorat=
+ion: none !important;text-decoration:none; font-size:10px; color:#888888">M=
+y
+ account</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"border: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"border: 0px;">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: =
+0px;background-color:#0071dc">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"left" valign=3D"top" style=3D"border: 0px;">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: =
+0px;background-color:#0071dc">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"border: 0px;">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: =
+0px;background-color:#0071dc">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"border: 0px;">
+<table class=3D"x_logo-height" height=3D"60px" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border: 0px;background-color:#0071dc">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"border: 0px;"><a href=3D"https=
+://links.em.walmart.com/uni/ss/c/FuJLmaCsAvWzGMFHoKPKFJOUJtPQw41UpqCB8XitJp=
+8_J71_6d_4jL70FLYoELpnTVnl9hE1wbERnxLPBPRBdw0iu1e5Fl5cQzcJWFrwytuXMaJcieOqC=
+mrDQ5u8Zbahjl1p-FYlfygLRLgogDRPCpntPoif8Q1OIbxGV7UWN-Y/3ke/yxxbMYN_T5SyX95b=
+oLaj7g/h9/Qu9uHQG8fNd2BYaKd0qjlPqjzGBHbCPaYcf4PL-uP5M" title=3D"Walmart - S=
+ave Money. Live Better." target=3D"_blank" style=3D"border: 0px;text-decora=
+tion: none !important;"><img class=3D"x_logo-height" height=3D"60px" alt=3D=
+"Walmart - Save Money. Live Better." style=3D"border: 0px;display:block; ma=
+rgin:auto" src=3D"https://i5.walmartimages.com/dfw/4ff9c6c9-cbdd/k2-_1116c0=
+d9-5859-4431-b8de-eab4823310ac.v1.png"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"border: 0px;">
+<td height=3D"4" style=3D"border: 0px;width:700px; height:4px; background-c=
+olor:#FFC120">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" alig=
+n=3D"center" valign=3D"top" style=3D"border: 0px;">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"left" valign=3D"top" style=3D"border: 0px;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" va=
+lign=3D"top" width=3D"94%" style=3D"border: 0px;margin:0 auto">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td style=3D"border: 0px;line-height:30px; font-family:'Bogle',Arial,SansSe=
+rif; font-size:18px">
+<br style=3D"border: 0px;">
+<span style=3D"border: 0px;"><br style=3D"border: 0px;">
+Hello Craig,<br style=3D"border: 0px;">
+<br style=3D"border: 0px;">
+</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"94%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center" valign=3D"top" style=3D"border: 0px;margin:0 auto">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"left" valign=3D"top" style=3D"border: 0px;line-height:30px; fo=
+nt-family:'Bogle',Arial,SansSerif; font-size:18px">
+<span style=3D"border: 0px;">We recently discovered one or more orders with=
+ previously refunded items in which the associated sales tax refund didn=92=
+t process. The missing refund will be processed by March 31st, and could ta=
+ke up to 10 business days to appear
+ on your original payment method.<br style=3D"border: 0px;">
+<br style=3D"border: 0px;">
+Details of the impacted orders are below.<br style=3D"border: 0px;">
+<br style=3D"border: 0px;">
+</span></td>
+</tr>
+<tr style=3D"border: 0px;">
+<td style=3D"border: 0px;">
+<table class=3D"x_font_cutom_small" width=3D"100%" style=3D"border: 0px;bor=
+der-collapse:collapse; border:1px solid black; font-family:'Bogle',Arial,sa=
+ns-serif">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td width=3D"35%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; font-weight:bold; font-size:18px">
+Affected Order(s):</td>
+<td width=3D"20%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; font-weight:bold; font-size:18px">
+Refund Amount</td>
+<td width=3D"30%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; font-weight:bold; font-size:18px">
+Credit Card Type</td>
+<td width=3D"15%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; font-weight:bold; font-size:18px">
+Last 4 digits of Card</td>
+</tr>
+<tr style=3D"border: 0px;">
+<td width=3D"35%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; padding-left:3%; font-weight:normal; font-size:18px">
+5811920269076 </td>
+<td width=3D"20%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; padding-left:3%; font-weight:normal; font-size:18px">
+$ 1.16</td>
+<td width=3D"30%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; padding-left:3%; font-weight:normal; font-size:18px">
+Visa</td>
+<td width=3D"15%" style=3D"border: 0px;border:1px solid black; text-align:c=
+enter; padding-left:3%; font-weight:normal; font-size:18px">
+2926 </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"border: 0px;">
+<td align=3D"left" valign=3D"top" style=3D"border: 0px;line-height:30px; fo=
+nt-family:'Bogle',Arial,SansSerif; font-size:18px">
+<br style=3D"border: 0px;">
+If you have questions about this refund or any other concerns, please use t=
+he Contact Us button on our
+<a href=3D"https://links.em.walmart.com/ss/c/FuJLmaCsAvWzGMFHoKPKFOshNilPai=
+8EuOF5hpaa6Xmrm01iKX_R5AEbaokWRyJ3aUJDuhItw_yKa2BlLYQZaE4GGuiRKGRagYPWbY_-i=
+dVKHaZoMOCrsFc0Es9pRUnW1Qw8fRtBIo9brBn0EEeCTqgeY0F4gWupLNEFdbj16qk/3ke/yxxb=
+MYN_T5SyX95boLaj7g/h10/kRlgKN5BolcihN0dGl1WklxY6UlpeFQdACybC2MU6Qo" style=
+=3D"border: 0px;text-decoration: none !important;">
+Help Center homepage</a>. <br style=3D"border: 0px;">
+<br style=3D"border: 0px;">
+Please include your email address and the order number from this email for =
+faster service.
+<br style=3D"border: 0px;">
+<br style=3D"border: 0px;">
+Sincerely,<br style=3D"border: 0px;">
+Walmart Customer Care Team<br style=3D"border: 0px;">
+<a href=3D"https://links.em.walmart.com/ss/c/FuJLmaCsAvWzGMFHoKPKFJOUJtPQw4=
+1UpqCB8XitJp9q8VbNLnpgLt1j_8eTkcUF0tY_O5kHR93RISwWrEP_KOC0Z2iKsd5AtHqDYmTJE=
+JkYKCQ5-pgw7Gy2AryzCPHnd9oyvT12EOJLnfusDkaKGZcAcwSrJjGMiFvhhw1p_LU/3ke/yxxb=
+MYN_T5SyX95boLaj7g/h11/W76b6UOnlBsxdwc7CnFUUfiA3OnaaYN__SQpW0xMpl8" style=
+=3D"border: 0px;text-decoration: none !important;">https://www.walmart.com/=
+</a><br style=3D"border: 0px;">
+<br style=3D"border: 0px;">
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" st=
+yle=3D"border: 0px;">
+<tbody align=3D"center" style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td style=3D"border: 0px;">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: =
+0px;">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td style=3D"border: 0px;">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: =
+0px;background-color:#0071dc">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td height=3D"4" width=3D"100%" style=3D"border: 0px;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"border: 0px;">
+<td style=3D"border: 0px;"></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" alig=
+n=3D"center" valign=3D"top" style=3D"border: 0px;">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td align=3D"left" valign=3D"top" style=3D"border: 0px;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" va=
+lign=3D"top" width=3D"94%" style=3D"border: 0px;margin:0 auto">
+<tbody style=3D"border: 0px;">
+<tr style=3D"border: 0px;">
+<td style=3D"border: 0px;line-height:14px; color:#6D6E71; font-family:'Bogl=
+e',Arial,SansSerif; font-size:14px">
+<br style=3D"border: 0px;">
+<span style=3D"border: 0px;"></span><span style=3D"border: 0px;">Do not rep=
+ly to this email. The inbox is not monitored. If you require assistance, pl=
+ease&nbsp;</span><a href=3D"https://links.em.walmart.com/ss/c/C7dNH7iPpkhkh=
+DtdjO6UvoklnAjGoSDYr7lv8S1rJTkDWfChQxBZ-VILe2lC4p2MoAHjL_YcAcmrAt_5M3OoFpNU=
+PhUDWxGeEDLO86BHAStYndpDCm8l1fnuDbKXfZ0innj5mKO3za1_0gi765gQjKM98efOOwZ14aP=
+4RiuG8CE/3ke/yxxbMYN_T5SyX95boLaj7g/h12/3VgJ0UOaUL4W-aeP4aU3WQrvb9VOivuuGsx=
+BI0DQ92U" target=3D"_blank" title=3D"click here for help" style=3D"border: =
+0px;text-decoration: none !important;color:#6D6E71"><span style=3D"border: =
+0px;text-decoration:underline">click
+ here for help</span></a><span style=3D"border: 0px;">.</span><br style=3D"=
+border: 0px;">
+<br style=3D"border: 0px;">
+<b style=3D"border: 0px;">Security &amp; Privacy</b><br style=3D"border: 0p=
+x;">
+<span style=3D"border: 0px;">Walmart protects your security and privacy. We=
+ will never ask for personal information (such as passwords or credit card =
+numbers) in an email newsletter. If you receive such a request, please do n=
+ot respond to the email.</span><a href=3D"https://links.em.walmart.com/ss/c=
+/s2Hp91T69805Qsdm4wiR3og4LUCyK_kQaQxep1F7tlJAqCqTsebJneEzyQ7AYqowi80eLknn1O=
+9FR-3BuHA4tlRThn1rc2HCl6QHWPt6ja_DkCTQt5lOlqYejHIN4B2c57WLWg3O4XzVhxm95MJFC=
+wncdZMoFmKd3Ssz7wyz-fZGYauCEktsGe-wL9LQrd92yLLwkKTUbdP6W3eQS6J5ZQ/3ke/yxxbM=
+YN_T5SyX95boLaj7g/h13/4pzQar0BCQGBfe9w67wBnXniv7HfbGTt07InxgUvc-Y" target=
+=3D"_blank" title=3D"Learn more about our privacy and online safety tips" s=
+tyle=3D"border: 0px;text-decoration: none !important;color:#6D6E71"><span s=
+tyle=3D"border: 0px;">&nbsp;</span><span style=3D"border: 0px;text-decorati=
+on:underline">Learn
+ more</span></a><span style=3D"border: 0px;">. See our</span><a href=3D"htt=
+ps://links.em.walmart.com/ss/c/s2Hp91T69805Qsdm4wiR3og4LUCyK_kQaQxep1F7tlJA=
+qCqTsebJneEzyQ7AYqowSvgiwOuzQi7BMwfeyK3-4vP2OcJfNgmyT_nIW-Hn9lFwN6RRNNa-Fkc=
+LPNM3haFh9yrg3m-12i_s_KR3BSGLMWqb_P0axOjeA3WaaghbtAzmycOe9wYO77ZayqEB0Qqpf6=
+J3JhgwBodYhd4JVK6Hc9VM-TUTN97uF9Sf28wFW2g/3ke/yxxbMYN_T5SyX95boLaj7g/h14/kZ=
+wbvTSGAp022E3-6gdDPCvrB2FvleZgoczMMqr5x6Q" target=3D"_blank" style=3D"borde=
+r: 0px;text-decoration: none !important;color:#6D6E71"><span style=3D"borde=
+r: 0px;">&nbsp;</span><span style=3D"border: 0px;text-decoration:underline"=
+>Privacy
+ Policy</span></a><span style=3D"border: 0px;">.</span><br style=3D"border:=
+ 0px;">
+<br style=3D"border: 0px;">
+<span style=3D"border: 0px;">Walmart.com, 850 Cherry Avenue, San Bruno CA 9=
+4066</span><br style=3D"border: 0px;">
+<br style=3D"border: 0px;">
+<span style=3D"border: 0px;">=A9&nbsp;2022 Walmart.</span><br style=3D"bord=
+er: 0px;">
+<br style=3D"border: 0px;">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"border: 0px;he=
+ight:1px!important; width:1px!important; border-width:0!important; margin-t=
+op:0!important; margin-bottom:0!important; margin-right:0!important; margin=
+-left:0!important; padding-top:0!important; padding-bottom:0!important; pad=
+ding-right:0!important; padding-left:0!important" src=3D"https://links.em.w=
+almart.com/ss/o/AJHDOzMTRB_McMH0tDeoiQ/3ke/yxxbMYN_T5SyX95boLaj7g/ho.gif">
+</div>
+</body>
+</html>
+
+--_000_BYAPR08MB3847E254FBE1BE62F07E88D68D189BYAPR08MB3847namp_--
